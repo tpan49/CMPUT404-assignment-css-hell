@@ -1,0 +1,145 @@
+/* Reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+#sidebar {
+    background-color: #957DAD;
+    height: 100%;
+    width: 150px;
+    overflow-x: hidden;
+    padding-top: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#nav {
+    background-color: #957DAD;
+    display: inline-block;
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav li:hover {
+    display: block;
+}
+
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #957DAD;
+}
+
+#nav li a {
+    padding: 0 24px;
+    text-decoration: none;
+    line-height: 46px;
+    display: block;
+}
+
+#nav li:hover > a {
+    color: #000;
+    background-color:#D291BC;
+}
+
+#content .content-section {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px 0;
+}
+
+#content .section-heading {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    color: #000000;
+    letter-spacing: 4px;
+    padding: 8px;
+    background-color: #D291BC;
+}
+
+#content .about-text {
+    margin: 15px 0;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.6;
+    padding-left: 20px;
+}
+
+.section-heading h2{
+    padding: 16px;
+}
+
+.history-section {
+    background-color: black; 
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.fig img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fig {
+    width: 30%;
+}
+
+.list-item {
+    padding: 8px;
+}
+
+.list-item li{
+    padding: 4px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding: 32px;
+}
+
+#footer p {
+    padding: 8px;
+}
+
+.social-media-list li {
+    list-style-type: none;
+}
+
+.list {
+    padding: 16px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+

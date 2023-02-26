@@ -1,0 +1,93 @@
+/* Reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: greenyellow;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    color: black;
+} 
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    text-align: center;
+    background-color: blue;
+    color:yellow ;
+}
+
+#sidebar {
+    background-color: red;
+    height: 100%;
+    width: 150px;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#nav {
+    background-color: red;
+    display: inline-block;
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav li:hover {
+    display: block;
+}
+
+#nav > li > a {
+    color: yellow;
+    text-transform: uppercase;
+    font-size: xx-large;    
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 46px;
+    display: block;
+}
+
+#nav li:hover > a {
+    color: blue;
+}
+
+
+.history-section {
+    color: white;
+}
+
+.fig img{
+    width: 30%;
+    display: block;
+}
+
+.fig {
+    width: 10%;
+}
+
+#footer {
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+
+
+
+

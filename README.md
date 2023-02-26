@@ -21,4 +21,18 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+Background pictures' links:
+https://www.pinterest.com/pin/747456869393751167/
+https://www.vecteezy.com/free-videos/80s-cartoon
+
+The project gutenberg HTML files' links:
+https://www.gutenberg.org/cache/epub/2641/pg2641-images.html
+https://www.gutenberg.org/cache/epub/16389/pg16389-images.html
+https://www.gutenberg.org/cache/epub/11/pg11-images.html
+
+Cover images: Downloaded from the original HTML pages
+
+Documentation
+=================
+The project gutenberg HTML files: I deleted all the internal css and used one external styles.css file that I created for three pages. Some internal css were reused or edited in the external files, and I added some more css to satisfy the assignment's requirement.
 
