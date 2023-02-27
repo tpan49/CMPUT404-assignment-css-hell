@@ -15,9 +15,9 @@ git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 License/Copyright
 =================
 
-Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
+Textual content is copyright Tran Phuong Anh Nguyen (C) 2023 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
-repository and (C) 2013 Abram Hindle visibile in the text.
+repository and (C) 2023 Tran Phuong Anh Nguyen visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
@@ -34,5 +34,12 @@ Cover images: Downloaded from the original HTML pages
 
 Documentation
 =================
-The project gutenberg HTML files: I deleted all the internal css and used one external styles.css file that I created for three pages. Some internal css were reused or edited in the external files, and I added some more css to satisfy the assignment's requirement.
+The project gutenberg HTML files: 
+I deleted all the internal css and used one external styles.css file that I created for three pages. Some internal css were reused or edited in the external files, and I added some more css to satisfy the assignment's requirement.
+To be specific on some of the changes:
+1. Theme paragraphs with CSS by changing paragraphs' margin, text indent and adding padding
+2. Theme header tags with CSS by changing color to dark red, increasing font-size to all headers and change the whole html font-family to "Times New Roman", Times, serif
+3. Theme images and images captions with CSS by adding background image - old paper like, and added cover images captions (white text on black background)
+4. Change the colour scheme to something aesthetically pleasing by changing text color to green, matched well with the yelllowish background image
+
 
